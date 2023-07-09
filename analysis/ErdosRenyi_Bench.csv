@@ -1,0 +1,8 @@
+,Algo,n,m,Time,Stretch
+0,bazel-bin/benchmarks/LowAvgStretch/Algo_spanner/RandomSpanner,127,126,1.0,1.0
+1,bazel-bin/benchmarks/LowAvgStretch/Algo_spanner/RandomSpanner,3101,3100,4.0,1.0
+2,bazel-bin/benchmarks/LowAvgStretch/Algo_spanner/RandomSpanner,4815,4817,17.0,1.06878
+3,bazel-bin/benchmarks/LowAvgStretch/Algo_spanner/RandomSpanner,4999,25129,1.0,6.51818
+4,bazel-bin/benchmarks/LowAvgStretch/Algo_spanner/RandomSpanner,5000,125340,0.0,4.94769
+5,bazel-bin/benchmarks/LowAvgStretch/Algo_spanner/RandomSpanner,7058,7057,8.0,1.0
+6,bazel-bin/benchmarks/LowAvgStretch/Algo_spanner/RandomSpanner,9377,9379,5.0,1.00533

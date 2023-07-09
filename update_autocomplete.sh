@@ -1,0 +1,1 @@
+./bazel run @hedron_compile_commands//:refresh_all -- --config=openmp --compilation_mode=dbg
