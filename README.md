@@ -2,20 +2,20 @@
 
 ## Files created/modified by us
 
-* [low-avg-stretch/benchmarks/LowAvgStretch/LSPES](https://gitlab.ethz.ch/dnezamabadi/low-avg-stretch/-/tree/main/benchmarks/LowAvgStretch/LSPES) (created) - *Contains implementation for our algorithm LSPES*
-* [low-avg-stretch/benchmarks/LowAvgStretch/Algo_SSSP_ParallelStarDecomposition](https://gitlab.ethz.ch/dnezamabadi/low-avg-stretch/-/tree/main/benchmarks/LowAvgStretch/Algo_SSSP_ParallelStarDecomposition) (created) - *Contains implementation for our Star Decomposition used in Benchmarking*
-* [low-avg-stretch/benchmarks/LowAvgStretch/Algo_spanner](https://gitlab.ethz.ch/dnezamabadi/low-avg-stretch/-/tree/main/benchmarks/LowAvgStretch/Algo_spanner) (created) - *Contains implementation for our random BFS*
-* [low-avg-stretch/benchmarks/LowAverageStretchTree_ParallelStarDecomp](https://gitlab.ethz.ch/dnezamabadi/low-avg-stretch/-/tree/main/benchmarks/LowAverageStretchTree_ParallelStarDecomp) (created) - *Contains implementation for our algorithm AKPW*
-* [low-avg-stretch/gbbs/graph.h](https://gitlab.ethz.ch/dnezamabadi/low-avg-stretch/-/blob/main/gbbs/graph.h) (modified) - *Fix bugs in GBBS library; see [GitHub Issue: Missing return value in graph.h (Undefined Behavior?)](https://github.com/ParAlg/gbbs/issues/77), [GitHub Issue: deletion_fn() is called too late, resulting in SEGFAULT](https://github.com/ParAlg/gbbs/issues/80)*
-* [gbbs/benchmark.h](https://gitlab.ethz.ch/dnezamabadi/low-avg-stretch/-/blob/main/gbbs/benchmark.h) (modified) - *Contains benchmarking infrastructure for algorithms in `/benchmarks/LowAvgStretch`*
-* [low-avg-stretch/foreign/abraham_parallell.cpp](https://gitlab.ethz.ch/dnezamabadi/low-avg-stretch/-/blob/main/foreign/abraham_parallell.cpp) (created) - *Contains implementation for our implementation of weighted Abraham (not evaluated)*
-* [low-avg-stretch/foreign/seq_unweighted_alon.cpp](https://gitlab.ethz.ch/dnezamabadi/low-avg-stretch/-/blob/main/foreign/seq_unweighted_alon.cpp) (created) - *Contains implementation of sequential Alon Karp*
-* [low-avg-stretch/foreign/benchmark.h](https://gitlab.ethz.ch/dnezamabadi/low-avg-stretch/-/blob/main/foreign/benchmark.h) (created) - *Contains benchmarking infrastructure for algorithms in `/foreign`*
-* [low-avg-stretch/benchmarks/LowAvgStretch/Algo_SSSP_ParallelStarDecomposition_improved](https://gitlab.ethz.ch/dnezamabadi/low-avg-stretch/-/tree/main/benchmarks/LowAvgStretch/Algo_SSSP_ParallelStarDecomposition_improved) (created) - *Contains improved implementation for our Star Decomposition resulting in approximately 2x speedup as discussed in the report.*
+* [low-avg-stretch/benchmarks/LowAvgStretch/LSPES]([https://gitlab.ethz.ch/dnezamabadi/low-avg-stretch/-/tree/main](https://github.com/YBaumann/ParallelLSST/tree/main/benchmarks/LowAvgStretch/LSPES) (created) - *Contains implementation for our algorithm LSPES*
+* [low-avg-stretch/benchmarks/LowAvgStretch/Algo_SSSP_ParallelStarDecomposition]([https://gitlab.ethz.ch/dnezamabadi/low-avg-stretch/-/tree/main](https://github.com/YBaumann/ParallelLSST/tree/main/benchmarks/LowAvgStretch/Algo_SSSP_ParallelStarDecomposition) (created) - *Contains implementation for our Star Decomposition used in Benchmarking*
+* [low-avg-stretch/benchmarks/LowAvgStretch/Algo_spanner]([https://gitlab.ethz.ch/dnezamabadi/low-avg-stretch/-/tree/main](https://github.com/YBaumann/ParallelLSST/tree/main/benchmarks/LowAvgStretch/Algo_spanner) (created) - *Contains implementation for our random BFS*
+* [low-avg-stretch/benchmarks/LowAverageStretchTree_ParallelStarDecomp]([https://gitlab.ethz.ch/dnezamabadi/low-avg-stretch/-/tree/main](https://github.com/YBaumann/ParallelLSST/tree/main/benchmarks/LowAverageStretchTree_ParallelStarDecomp) (created) - *Contains implementation for our algorithm AKPW*
+* [low-avg-stretch/gbbs/graph.h]([https://gitlab.ethz.ch/dnezamabadi/low-avg-stretch/-/blob/main](https://github.com/YBaumann/ParallelLSST/tree/main/gbbs/graph.h) (modified) - *Fix bugs in GBBS library; see [GitHub Issue: Missing return value in graph.h (Undefined Behavior?)](https://github.com/ParAlg/gbbs/issues/77), [GitHub Issue: deletion_fn() is called too late, resulting in SEGFAULT](https://github.com/ParAlg/gbbs/issues/80)*
+* [gbbs/benchmark.h]([https://gitlab.ethz.ch/dnezamabadi/low-avg-stretch/-/blob/main](https://github.com/YBaumann/ParallelLSST/tree/main/gbbs/benchmark.h) (modified) - *Contains benchmarking infrastructure for algorithms in `/benchmarks/LowAvgStretch`*
+* [low-avg-stretch/foreign/abraham_parallell.cpp]([https://gitlab.ethz.ch/dnezamabadi/low-avg-stretch/-/blob/main](https://github.com/YBaumann/ParallelLSST/tree/main/foreign/abraham_parallell.cpp) (created) - *Contains implementation for our implementation of weighted Abraham (not evaluated)*
+* [low-avg-stretch/foreign/seq_unweighted_alon.cpp](https://github.com/YBaumann/ParallelLSST/tree/main/foreign/seq_unweighted_alon.cpp) (created) - *Contains implementation of sequential Alon Karp*
+* [low-avg-stretch/foreign/benchmark.h](https://github.com/YBaumann/ParallelLSST/tree/main/foreign/benchmark.h) (created) - *Contains benchmarking infrastructure for algorithms in `/foreign`*
+* [low-avg-stretch/benchmarks/LowAvgStretch/Algo_SSSP_ParallelStarDecomposition_improved](https://github.com/YBaumann/ParallelLSST/tree/main/benchmarks/LowAvgStretch/Algo_SSSP_ParallelStarDecomposition_improved) (created) - *Contains improved implementation for our Star Decomposition resulting in approximately 2x speedup as discussed in the report.*
 
 ## Important Notes
 
-Our AKPW algorithm has an unfortunate name in our codebase. This is due to some early confusion and was kept. As seen above it is located in [low-avg-stretch/benchmarks/LowAverageStretchTree_ParallelStarDecomp](https://gitlab.ethz.ch/dnezamabadi/low-avg-stretch/-/tree/main/benchmarks/LowAverageStretchTree_ParallelStarDecomp). Additionally in the benchmarking output it is named `StarDecomp`, while our Star Decomposition is named `SSSP_StarDecomp` there.
+Our AKPW algorithm has an unfortunate name in our codebase. This is due to some early confusion and was kept. As seen above it is located in [low-avg-stretch/benchmarks/LowAverageStretchTree_ParallelStarDecomp](https://github.com/YBaumann/ParallelLSST/tree/main/benchmarks/LowAverageStretchTree_ParallelStarDecomp). Additionally in the benchmarking output it is named `StarDecomp`, while our Star Decomposition is named `SSSP_StarDecomp` there.
 
 Also, the improved Star Decomposition is not included in the benchmarking script. If you want to use the script to benchmark it you would have to modify line 32 to the location of the improved version.
 
@@ -157,12 +157,12 @@ Please note that the output directory should only hold trees produced from the s
 
 ## Benchmarking inputs
 
-All our benchmarking inputs are located in the branches `all_data` and `max_data` using `git-lsf`. In particular `max_data` holds our inputs for strong scaling in the directory [test_data](https://gitlab.ethz.ch/dnezamabadi/low-avg-stretch/-/tree/max_data/test_data), and `all_data` holds our inputs for weak scaling in the directory [weak_scaling_data](https://gitlab.ethz.ch/dnezamabadi/low-avg-stretch/-/tree/all_data/weak_scaling_data)
+All our benchmarking inputs are located in the branches `all_data` and `max_data` using `git-lsf`. In particular `max_data` holds our inputs for strong scaling in the directory [test_data](https://github.com/YBaumann/ParallelLSST/tree/max_data/test_data), and `all_data` holds our inputs for weak scaling in the directory [weak_scaling_data](https://github.com/YBaumann/ParallelLSST/tree/all_data/weak_scaling_data)
 
 ## Scripts
 
-We have included several scripts in the directory [scripts/dphpc_benchmarking](https://gitlab.ethz.ch/dnezamabadi/low-avg-stretch/-/tree/main/scripts/dphpc_benchmarking). This includes a script for automated benchmarking called `run_benchmarks.py` and three scripts to produce plots from the output data called `plot_single_graph_multiple_algos.py`, `plot_snap2.py`, and `plot_weak_scaling-py`
+We have included several scripts in the directory [scripts/dphpc_benchmarking](https://github.com/YBaumann/ParallelLSST/tree/main/scripts/dphpc_benchmarking). This includes a script for automated benchmarking called `run_benchmarks.py` and three scripts to produce plots from the output data called `plot_single_graph_multiple_algos.py`, `plot_snap2.py`, and `plot_weak_scaling-py`
 
 ## Results
 
-We have included our benchmarking results in the directory [scripts/dphpc_benchmarking/benchmarks](https://gitlab.ethz.ch/dnezamabadi/low-avg-stretch/-/tree/main/scripts/dphpc_benchmarking/benchmarks) along with some plots in [scripts/dphpc_benchmarking/plot_output](https://gitlab.ethz.ch/dnezamabadi/low-avg-stretch/-/tree/main/scripts/dphpc_benchmarking/plot_output)
+We have included our benchmarking results in the directory [scripts/dphpc_benchmarking/benchmarks](https://github.com/YBaumann/ParallelLSST/tree/main/scripts/dphpc_benchmarking/benchmarks) along with some plots in [scripts/dphpc_benchmarking/plot_output](https://github.com/YBaumann/ParallelLSST/tree/main/scripts/dphpc_benchmarking/plot_output)
