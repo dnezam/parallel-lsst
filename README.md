@@ -1,5 +1,5 @@
 ## Overview
-Determining Low-Stretch Spanning Trees (LSST) is increasingly used as a subroutine in graph algorithms and linear solvers. Simultaneously, the increasing size of graphs that need to be processed motivates the search for parallel and efficient LSST algorithms. To this end, we implement and evaluate a variety of LSST algorithms. We find that out of our parallel algorithms, ”Low-Stretch Parallel Exponential Shift” consistently delivers low-stretch results with a reasonable runtime.
+Determining Low-Stretch Spanning Trees (LSST) is increasingly used as a subroutine in graph algorithms and linear solvers. Simultaneously, the increasing size of graphs that need to be processed motivates the search for parallel and efficient LSST algorithms. To this end, we implement and evaluate a variety of LSST algorithms. We find that out of our parallel algorithms, ”Low-Stretch Parallel Exponential Shift” consistently delivers low-stretch results with a reasonable runtime. [Full Report](report.pdf)
 
 Authors: August Rønberg, Daniel Nezamabadi, Dennis Buitendijk, Yves Baumann, Zijan Zhang
 ## Files created/modified by us
