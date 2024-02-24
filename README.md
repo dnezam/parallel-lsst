@@ -1,5 +1,7 @@
-# low-avg-stretch
+## Overview
+Determining Low-Stretch Spanning Trees (LSST) is increasingly used as a subroutine in graph algorithms and linear solvers. Simultaneously, the increasing size of graphs that need to be processed motivates the search for parallel and efficient LSST algorithms. To this end, we implement and evaluate a variety of LSST algorithms. We find that out of our parallel algorithms, ”Low-Stretch Parallel Exponential Shift” consistently delivers low-stretch results with a reasonable runtime.
 
+Authors: August Rønberg, Daniel Nezamabadi, Dennis Buitendijk, Yves Baumann, Zijan Zhang
 ## Files created/modified by us
 
 * [low-avg-stretch/benchmarks/LowAvgStretch/LSPES]([https://gitlab.ethz.ch/dnezamabadi/low-avg-stretch/-/tree/main](https://github.com/YBaumann/ParallelLSST/tree/main/benchmarks/LowAvgStretch/LSPES) (created) - *Contains implementation for our algorithm LSPES*
